@@ -53,8 +53,8 @@ contract Antiparallel is ERC721Enumerable, Ownable {
     */
     function startPresale() public onlyOwner {
         presaleStarted = true;
-        // Set presaleEnded time as current timestamp + 30 minutes
-        presaleEnded = block.timestamp + 30 minutes;
+        // Set presaleEnded time as current timestamp + 10 minutes
+        presaleEnded = block.timestamp + 10 minutes;
     }
 
     /**
